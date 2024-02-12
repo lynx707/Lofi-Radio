@@ -18,10 +18,10 @@ module.exports = {
 
   nodes: [
     {
-      url: process.env.NODE_URL || 'lavalink.teramont.net:25565',
-      name: process.env.NODE_NAME || 'Name',
-      auth: process.env.NODE_AUTH || 'eHKuFcz67k4lBS64',
-      secure: parseBoolean(process.env.NODE_SECURE || 'false'),
+      url: process.env.NODE_URL || 'lavalink.lexnet.cc:443',
+      name: process.env.NODE_NAME || 'Lavalink',
+      auth: process.env.NODE_AUTH || 'lexn3tl@val!nk',
+      secure: parseBoolean(process.env.NODE_SECURE || 'true'),
     },
   ],
 };
