@@ -18,8 +18,8 @@ module.exports = {
 
   nodes: [
     {
-      url: process.env.NODE_URL || 'lava.dcmusic.ca:443',
-      name: process.env.NODE_NAME || 'Lavalink Nep',
+      url: process.env.NODE_URL || 'lava.alfari.id:443',
+      name: process.env.NODE_NAME || 'Lavalink LavaSrc',
       auth: process.env.NODE_AUTH || 'youshallnotpass',
       secure: parseBoolean(process.env.NODE_SECURE || 'true'),
     },
